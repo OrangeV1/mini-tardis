@@ -47,7 +47,7 @@ import java.util.*;
 
 @SuppressWarnings("OptionalUsedAsFieldOrParameterType")
 public class Tardis {
-    public static final Identifier DEFAULT_INTERIOR = MiniTardis.id("wooden_coral");
+    public static final Identifier DEFAULT_INTERIOR = MiniTardis.id("basic_coral");
     public static final BlockPos INTERIOR_CENTER = new BlockPos(0, 64, 0);
     public static final ChunkTicketType<BlockPos> INTERIOR_TICKET_TYPE =
             ChunkTicketType.create("tardis_interior", Vec3i::compareTo, 20);
