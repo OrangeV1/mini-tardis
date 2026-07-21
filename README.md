@@ -1,5 +1,12 @@
 ![Banner](img/banner_wide.png)
 
+> [!WARNING]
+> Like some of my other projects, this repository has been migrated to Codeberg.
+> Any new issues or pull requests here will be ignored, please create them over at the new repository.
+> 
+> New repository:
+> https://codeberg.org/enjarai/mini-tardis
+
 ## Overview
 
 A new take on the often-made Minecraft TARDIS mod, 
