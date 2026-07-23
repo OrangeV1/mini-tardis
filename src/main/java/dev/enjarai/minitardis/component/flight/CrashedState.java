@@ -20,6 +20,11 @@ public class CrashedState implements FlightState {
 
     @Override
     public FlightState tick(Tardis tardis) {
+        var stability = tardis.getStability();
+        if (stability < 1000) {
+            tardis.setStability(stability + 1);
+        }
+
         if (tardis.getInteriorWorld().getTime() % 100 == 0) {
             playForInteriorAndExterior(tardis, ModSounds.CLOISTER_BELL, SoundCategory.BLOCKS, 1, 1);
         }
